@@ -14,7 +14,8 @@
     "clean:build": "lerna exec -- rimraf lib",
     "release": "lerna publish",
     "ls": "lerna ls",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "changelog": "node scripts/genChangelog.js"
   },
   "config": {
     "commitizen": {
