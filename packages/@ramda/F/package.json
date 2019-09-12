@@ -1,0 +1,32 @@
+{
+  "name": "f",
+  "version": "0.0.1",
+  "description": "一个永远返回false的方法",
+  "author": "IMike <gzxessence@163.com>",
+  "homepage": "https://github.com/essencemike/ramda-ts#readme",
+  "license": "MIT",
+  "main": "lib/F.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "test:coverage": "jest --coverage",
+    "test:dev": "jest --watch --coverage",
+    "test:unit": "jest"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essencemike/ramda-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/essencemike/ramda-ts/issues"
+  }
+}

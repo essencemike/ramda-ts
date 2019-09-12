@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "umd",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "@/*": ["packages/*"]
+    },
+    "lib": ["es5", "esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "packages/**/*.ts",
+    "tests/**/*.ts",
+  ],
+  "exclude": ["node_modules"]
+}
