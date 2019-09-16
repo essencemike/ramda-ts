@@ -5,7 +5,7 @@
   "keywords": [
     "R"
   ],
-  "author": "IMike <gzxessence@163.com>",
+  "author": "emike <gzxessence@163.com>",
   "homepage": "https://github.com/essencemike/ramda-ts#readme",
   "license": "MIT",
   "main": "lib/index.js",
@@ -34,5 +34,5 @@
   "dependencies": {
     "@ramda/f": "^0.2.0"
   },
-  "gitHead": "c5c4191fc7743a3b72e22d5c917bc45aa79e9525"
+  "gitHead": "8b7178db1b935e741f018ee447731349cb62d69d"
 }
