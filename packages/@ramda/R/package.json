@@ -1,11 +1,11 @@
 {
-  "name": "@ramda/r",
-  "version": "0.1.0",
+  "name": "@ramda-ts/r",
+  "version": "0.4.0",
   "description": "ramda函数的全量",
   "keywords": [
     "R"
   ],
-  "author": "IMike <gzxessence@163.com>",
+  "author": "emike <gzxessence@163.com>",
   "homepage": "https://github.com/essencemike/ramda-ts#readme",
   "license": "MIT",
   "main": "lib/index.js",
@@ -32,6 +32,7 @@
     "url": "https://github.com/essencemike/ramda-ts/issues"
   },
   "dependencies": {
-    "@ramda/f": "^0.1.0"
-  }
+    "@ramda-ts/f": "^0.4.0"
+  },
+  "gitHead": "33fd157a6cd9c52394b96ad55b97c9403f016ca8"
 }
