@@ -1,5 +1,5 @@
 {
-  "name": "@ramda/f",
+  "name": "@ramda-ts/f",
   "version": "0.3.0",
   "description": "一个永远返回false的方法",
   "author": "emike <gzxessence@163.com>",
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/essencemike/ramda-ts/issues"
   },
-  "gitHead": "8b7178db1b935e741f018ee447731349cb62d69d"
+  "gitHead": "33fd157a6cd9c52394b96ad55b97c9403f016ca8"
 }

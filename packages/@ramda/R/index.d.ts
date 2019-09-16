@@ -1,1 +1,1 @@
-export * from '@ramda/f';
+export * from '@ramda-ts/f';
