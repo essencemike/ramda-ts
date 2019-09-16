@@ -13,5 +13,5 @@
  *
  *      R.F(); //=> false
  */
-const F = () => false;
+const F = (): boolean => false;
 export default F;

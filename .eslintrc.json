@@ -25,13 +25,14 @@
   ],
   "rules": {
     "prettier/prettier": 1,
-    "@typescript-eslint/indent": ["error", 4, { "VariableDeclarator": 4, "SwitchCase": 1 }],
+    "@typescript-eslint/indent": ["error", 2, { "VariableDeclarator": 2, "SwitchCase": 1 }],
     "@typescript-eslint/no-unused-vars": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/explicit-member-accessibility": 0,
     "@typescript-eslint/no-triple-slash-reference": 0,
     "@typescript-eslint/triple-slash-reference": ["error", { "path": "always", "types": "never", "lib": "never" }],
     "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "import/prefer-default-export": 0,
     "eqeqeq": ["warn", "always"]
   }
 }

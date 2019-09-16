@@ -1,12 +1,12 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "packages": [
     "packages/@ramda/*"
   ],
   "changelog": {
-    "repo": "vuejs/vue-cli",
+    "repo": "essencemike/ramda-ts",
     "labels": {
       "PR: New Feature": ":rocket: New Features",
       "PR: Breaking Change": ":boom: Breaking Changes",
