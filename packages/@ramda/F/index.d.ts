@@ -1,1 +1,1 @@
-declare function F(): false;
+export declare function F(): false;

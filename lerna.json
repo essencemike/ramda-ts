@@ -6,7 +6,7 @@
     "packages/@ramda/*"
   ],
   "changelog": {
-    "repo": "vuejs/vue-cli",
+    "repo": "essencemike/ramda-ts",
     "labels": {
       "PR: New Feature": ":rocket: New Features",
       "PR: Breaking Change": ":boom: Breaking Changes",

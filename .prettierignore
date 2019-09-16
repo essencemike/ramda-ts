@@ -2,4 +2,5 @@ scripts
 node_modules
 dist/
 jest.config.js
+rollup.config.js
 **/__tests__/**
