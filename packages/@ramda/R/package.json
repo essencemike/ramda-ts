@@ -1,6 +1,6 @@
 {
   "name": "@ramda/r",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ramda函数的全量",
   "keywords": [
     "R"
@@ -32,6 +32,6 @@
     "url": "https://github.com/essencemike/ramda-ts/issues"
   },
   "dependencies": {
-    "@ramda/f": "^0.0.1"
+    "@ramda/f": "^0.1.0"
   }
 }
