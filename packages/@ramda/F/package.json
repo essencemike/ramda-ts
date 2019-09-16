@@ -12,7 +12,7 @@
     "test:dev": "jest --watch --coverage",
     "test:unit": "jest",
     "clean": "rm -rf lib/*",
-    "build": "npm run clean && rollup -c ../../../rollup.config.js"
+    "build": "npm run clean && rollup -c ../../../rollup.config.js --name F"
   },
   "directories": {
     "lib": "lib",
@@ -30,5 +30,6 @@
   },
   "bugs": {
     "url": "https://github.com/essencemike/ramda-ts/issues"
-  }
+  },
+  "gitHead": "c5c4191fc7743a3b72e22d5c917bc45aa79e9525"
 }

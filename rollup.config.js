@@ -5,22 +5,14 @@ const typescript = require('rollup-plugin-typescript');
 const { uglify } = require('rollup-plugin-uglify');
 
 const banner = `/*\n
-   * Exile.js v' + version + '\n
-   * (c) 2018-${new Date().getFullYear()} IMike\n
+   * Ramda.js v' + version + '\n
+   * (c) 2019-${new Date().getFullYear()} IMike\n
    * Released under the MIT License.\n
    */`;
 
-const name = require('./package.json').name;
+const nameArgs = process.argv[5];
+const name = nameArgs ? nameArgs : 'R';
 
-function generateName(str) {
-  const fileName = name.split('/')[1];
-
-  if (fileName === 'R') {
-    return fileName;
-  }
-
-  return `R_${fileName}`;
-}
 module.exports = {
   input: './index.ts',
   external: [],
@@ -28,7 +20,7 @@ module.exports = {
     file: './lib/index.js',
     format: 'umd',
     banner,
-    name: generateName(name),
+    name,
     sourceMap: true
   },
   plugins: [

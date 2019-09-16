@@ -56,7 +56,7 @@ const release = async () => {
     // git commit
     try {
       await execa('git', ['add', '-A'], { stdio: 'inherit' });
-      await execa('git', ['commit', '-m', 'chore: pre release sync'], { stdio: 'inherit' });
+      await execa('npm', ['run', 'commit'], { stdio: 'inherit' });
     } catch (e) {
       console.error(e);
     }

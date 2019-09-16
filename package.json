@@ -13,7 +13,7 @@
     "clean": "lerna clean",
     "lint": "eslint --fix packages/**/*.ts",
     "build": "npm run clean && npm run bootstrap && lerna run build",
-    "release": "npm run lint && npm run build && node scripts/release.js",
+    "release": "npm run build && node scripts/release.js",
     "ls": "lerna ls",
     "commit": "git-cz",
     "changelog": "node scripts/genChangelog.js"
