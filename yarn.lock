@@ -1271,6 +1271,11 @@
     once "^1.4.0"
     universal-user-agent "^4.0.0"
 
+"@ramda-ts/f@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@ramda-ts/f/-/f-0.4.0.tgz#d63eab4ad2627bdea3ae659caeea9f67a5faccfa"
+  integrity sha512-TuX0EHleTIUELIEyUSc2Q1oiI7ZXPGXTg4OhQGoFbdHwlYnoTL9N/mPv6ue6ZuTKNJwgi0qYIDITrUxixsPTtw==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.npmjs.org/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"

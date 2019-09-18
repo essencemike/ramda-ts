@@ -1,5 +1,5 @@
 {
-  "name": "@ramda-ts/f",
+  "name": "@ramda/f",
   "version": "0.4.0",
   "description": "一个永远返回false的方法",
   "author": "emike <gzxessence@163.com>",
