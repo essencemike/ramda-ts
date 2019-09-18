@@ -1,6 +1,6 @@
 {
   "name": "@ramda/f",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "一个永远返回false的方法",
   "author": "emike <gzxessence@163.com>",
   "homepage": "https://github.com/essencemike/ramda-ts#readme",
