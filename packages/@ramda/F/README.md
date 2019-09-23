@@ -5,7 +5,11 @@
 ## Usage
 
 ```
-const f = require('F');
+const F = require('@ramda-ts/f');
+
+// or
+
+import F from '@ramda-ts/f';
 
 // TODO: DEMONSTRATE API
 ```
