@@ -56,7 +56,7 @@ const release = async () => {
     // git commit
     try {
       await execa('git', ['add', '-A'], { stdio: 'inherit' });
-      await execa('npm', ['run', 'commit'], { stdio: 'inherit' });
+      await execa('npm', ['run', 'commit', 'chore: pre release lint'], { stdio: 'inherit' });
     } catch (e) {
       console.error(e);
     }
@@ -71,6 +71,7 @@ const release = async () => {
 
   const lernaArgs = [
     'publish',
+    '--repo-version',
     version,
     '--dist-tag',
     distTag,
@@ -79,13 +80,16 @@ const release = async () => {
   // keep packages' minor version in sync
   if (releaseType !== 'patch') {
     lernaArgs.push('--force-publish');
+    lernaArgs.push('*');
   }
 
   if (cliOptions['local-registry']) {
     lernaArgs.push('--no-git-tag-version', '--no-commit-hooks', '--no-push', '--yes');
   }
 
-  await execa(require.resolve('lerna/cli'), lernaArgs, { stdio: 'inherit' });
+  await execa(require.resolve('lerna/bin/lerna'), lernaArgs, { stdio: 'inherit' });
+
+  require('./genChangelog')(version);
 };
 
 release().catch(err => {

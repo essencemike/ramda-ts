@@ -12,10 +12,10 @@
     "clean": "lerna clean",
     "lint": "eslint --fix packages/**/*.ts",
     "build": "npm run clean && npm run bootstrap && lerna run build",
-    "release": "npm run build && node scripts/release.js",
+    "release": "node scripts/release.js",
     "ls": "lerna ls",
     "commit": "git-cz",
-    "changelog": "node scripts/genChangelog.js"
+    "changelog": "node scripts/genChangelog.js run"
   },
   "config": {
     "commitizen": {
@@ -40,6 +40,7 @@
     "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
+    "@vue/conventional-changelog": "^0.1.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.3",
@@ -47,6 +48,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "commitizen": "^4.0.3",
+    "conventional-changelog": "^3.1.10",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
