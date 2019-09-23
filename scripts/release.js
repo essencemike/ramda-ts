@@ -55,8 +55,8 @@ const release = async () => {
   if (yes) {
     // git commit
     try {
-      // await execa('git', ['add', '-A'], { stdio: 'inherit' });
-      // await execa('npm', ['run', 'commit', 'chore: pre release lint'], { stdio: 'inherit' });
+      await execa('git', ['add', '-A'], { stdio: 'inherit' });
+      await execa('git', ['commit', '-m', 'chore: pre release lint'], { stdio: 'inherit' });
     } catch (e) {
       console.error(e);
     }
@@ -71,7 +71,6 @@ const release = async () => {
 
   const lernaArgs = [
     'publish',
-    '--repo-version',
     version,
     '--dist-tag',
     distTag,
