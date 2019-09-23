@@ -1,3 +1,7 @@
+# 0.5.1 (2019-09-23)
+
+
+
 # [0.5.0](https://github.com/essencemike/ramda-ts/compare/v0.4.3...v0.5.0) (2019-09-23)
 
 
